@@ -1,5 +1,5 @@
 {
-  "name": "electron-react-app-youtube",
+  "name": "electron-react-app",
   "version": "1.0.0",
   "description": "This is an electron application which demonstrates how to use React/Redux and React UI Libraries with electron.",
   "main": "main.js",
