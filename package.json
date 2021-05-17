@@ -1,0 +1,40 @@
+{
+  "name": "electron-react-app-youtube",
+  "version": "1.0.0",
+  "description": "This is an electron application which demonstrates how to use React/Redux and React UI Libraries with electron.",
+  "main": "main.js",
+  "author": "Habiburrahman Dehzad",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^12.0.7",
+    "howler": "^2.2.1",
+    "mdbreact": "^5.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "electron-reload": "^1.5.0",
+    "file-loader": "^6.2.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^11.1.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+  }
+}
